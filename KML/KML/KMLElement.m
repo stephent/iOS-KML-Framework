@@ -194,13 +194,17 @@
     [self addCloseTagToKml:kml indentationLevel:indentationLevel];
 }
 
-- (void)addOpenTagToKml:(NSMutableString *)kml indentationLevel:(NSInteger)indentationLevel
-{
-    [kml appendString:[NSString stringWithFormat:@"%@%<%@>\r\n"
-                       , [self indentForIndentationLevel:indentationLevel]
-                       , [[self class] tagName]
-                       ]
-     ];
+- (void)addOpenTagToKml:(NSMutableString *)kml indentationLevel:(NSInteger)indentationLevel {
+	
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Wformat-invalid-specifier"
+	[kml appendString:[NSString stringWithFormat:@"%@%<%@>\r\n"
+					   , [self indentForIndentationLevel:indentationLevel]
+					   , [[self class] tagName]
+					   ]
+	 ];
+#pragma clang diagnostic pop
+    
 }
 
 - (void)addChildTagToKml:(NSMutableString *)kml indentationLevel:(NSInteger)indentationLevel
@@ -208,13 +212,16 @@
     // Override to subclasses
 }
 
-- (void)addCloseTagToKml:(NSMutableString *)kml indentationLevel:(NSInteger)indentationLevel
-{
+- (void)addCloseTagToKml:(NSMutableString *)kml indentationLevel:(NSInteger)indentationLevel {
+
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Wformat-invalid-specifier"
     [kml appendString:[NSString stringWithFormat:@"%@%</%@>\r\n"
                        , [self indentForIndentationLevel:indentationLevel]
                        , [[self class] tagName]
                        ]
      ];
+#pragma clang diagnostic pop
 }
 
 - (void)kml:(NSMutableString *)kml addPropertyForValue:(NSString *)value tagName:(NSString *)tagName indentationLevel:(NSInteger)indentationLevel

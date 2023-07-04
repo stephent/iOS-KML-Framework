@@ -94,12 +94,16 @@
         [attribute appendFormat:@" targetID=\"%@\"", self.targetID];
     }
 
-    [kml appendString:[NSString stringWithFormat:@"%@%<%@%@>\r\n"
-                       , [self indentForIndentationLevel:indentationLevel]
-                       , [[self class] tagName]
-                       , attribute
-                       ]
-     ];
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Wformat-invalid-specifier"
+	[kml appendString:[NSString stringWithFormat:@"%@%<%@%@>\r\n"
+					   , [self indentForIndentationLevel:indentationLevel]
+					   , [[self class] tagName]
+					   , attribute
+					   ]
+	 ];
+#pragma clang diagnostic pop
+    
 }
 
 @end

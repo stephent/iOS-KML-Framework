@@ -99,12 +99,16 @@
         [attribute appendFormat:@" schemaUrl=\"%@\"", self.schemaUrl];
     }
     
-    [kml appendString:[NSString stringWithFormat:@"%@%<%@%@>\r\n"
-                       , [self indentForIndentationLevel:indentationLevel]
-                       , attribute
-                       , [[self class] tagName]
-                       ]
-     ];
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Wformat-invalid-specifier"
+	[kml appendString:[NSString stringWithFormat:@"%@%<%@%@>\r\n"
+					   , [self indentForIndentationLevel:indentationLevel]
+					   , attribute
+					   , [[self class] tagName]
+					   ]
+	 ];
+#pragma clang diagnostic pop
+    
 }
 
 - (void)addChildTagToKml:(NSMutableString *)kml indentationLevel:(NSInteger)indentationLevel

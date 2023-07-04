@@ -137,12 +137,16 @@
     }
     
     [kml appendString:@"<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n"];
-    [kml appendString:[NSString stringWithFormat:@"%@%<%@%@>\r\n"
-                       , [self indentForIndentationLevel:indentationLevel]
-                       , [[self class] tagName]
-                       , attribute
-                       ]
-     ];
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Wformat-invalid-specifier"
+	[kml appendString:[NSString stringWithFormat:@"%@%<%@%@>\r\n"
+					   , [self indentForIndentationLevel:indentationLevel]
+					   , [[self class] tagName]
+					   , attribute
+					   ]
+	 ];
+#pragma clang diagnostic pop
+    
 }
 
 - (void)addChildTagToKml:(NSMutableString *)kml indentationLevel:(NSInteger)indentationLevel

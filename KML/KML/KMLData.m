@@ -47,12 +47,16 @@
         [attribute appendFormat:@" name=\"%@\"", _name];
     }
     
-    [kml appendString:[NSString stringWithFormat:@"%@%<%@%@>\r\n"
-                       , [self indentForIndentationLevel:indentationLevel]
-                       , [[self class] tagName]
-                       , attribute
-                       ]
-     ];
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Wformat-invalid-specifier"
+	[kml appendString:[NSString stringWithFormat:@"%@%<%@%@>\r\n"
+					   , [self indentForIndentationLevel:indentationLevel]
+					   , [[self class] tagName]
+					   , attribute
+					   ]
+	 ];
+#pragma clang diagnostic pop
+
 }
 
 - (void)addChildTagToKml:(NSMutableString *)kml indentationLevel:(NSInteger)indentationLevel
