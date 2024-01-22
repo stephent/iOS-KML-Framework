@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "KMLAbstractObject.h"
+#import <KML/KMLAbstractObject.h>
 
 /** Icon used in the List view that reflects the state of a Folder or Link fetch. 
  Icons associated with the open and closed modes are used for Folders and Network Links. 

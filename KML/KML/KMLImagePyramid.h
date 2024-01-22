@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "KMLElement.h"
+#import <KML/KMLElement.h>
 
 /** For very large images, you'll need to construct an image pyramid, which is a hierarchical set of images, each of which is an increasingly lower resolution version of the original image. 
  Each image in the pyramid is subdivided into tiles, so that only the portions in view need to be loaded. 

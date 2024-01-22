@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "KMLAbstractObject.h"
+#import <KML/KMLAbstractObject.h>
 
 @class KMLLatLonAltBox;
 @class KMLLod;

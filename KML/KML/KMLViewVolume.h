@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "KMLElement.h"
+#import <KML/KMLElement.h>
 
 /** Defines how much of the current scene is visible. 
  Specifying the field of view is analogous to specifying the lens opening in a physical camera. 

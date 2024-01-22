@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "KMLAbstractObject.h"
+#import <KML/KMLAbstractObject.h>
 
 /** This is an abstract element and cannot be used directly in a KML file. 
  This element is extended by the KMLTimeSpan and KMLTimeStamp elements. 

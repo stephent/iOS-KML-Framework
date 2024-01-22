@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "KMLAbstractStyleSelector.h"
+#import <KML/KMLAbstractStyleSelector.h>
 
 @class KMLIconStyle;
 @class KMLLabelStyle;

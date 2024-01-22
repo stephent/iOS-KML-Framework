@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "KMLElement.h"
+#import <KML/KMLElement.h>
 
 /** This is an abstract base class and cannot be used directly in a KML file. 
  It provides the id attribute, which allows unique identification of a KML element, and the targetId attribute, which is used to reference objects that have already been loaded into Google Earth. 

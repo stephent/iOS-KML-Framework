@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "KMLElement.h"
+#import <KML/KMLElement.h>
 
 @class KMLSimpleField;
 

@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "KMLAbstractContainer.h"
+#import <KML/KMLAbstractContainer.h>
 
 @class KMLSchema;
 

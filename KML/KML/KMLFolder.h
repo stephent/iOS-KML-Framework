@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "KMLAbstractContainer.h"
+#import <KML/KMLAbstractContainer.h>
 
 /** A Folder is used to arrange other Features hierarchically (Folders, Placemarks, NetworkLinks, or Overlays). 
  A Feature is visible only if it and all its ancestors are visible. 

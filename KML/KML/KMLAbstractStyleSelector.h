@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "KMLAbstractObject.h"
+#import <KML/KMLAbstractObject.h>
 
 /** This is an abstract element and cannot be used directly in a KML file. 
  It is the base type for the &lt;Style&gt; and &lt;StyleMap&gt; elements. 

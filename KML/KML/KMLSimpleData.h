@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "KMLElement.h"
+#import <KML/KMLElement.h>
 
 /** This element assigns a value to the custom data field identified by the name attribute. 
  The type and name of this custom data field are declared in the &lt;Schema&gt; element.

@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "KMLAbstractFeature.h"
+#import <KML/KMLAbstractFeature.h>
 
 @class KMLAbstractGeometry;
 

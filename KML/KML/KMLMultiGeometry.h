@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "KMLAbstractGeometry.h"
+#import <KML/KMLAbstractGeometry.h>
 
 /** A container for zero or more geometry primitives associated with the same feature. 
  

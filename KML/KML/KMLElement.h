@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "KMLType.h"
+#import <KML/KMLType.h>
 
 
 /** KMLElement is the root class of KML element hierarchies. 

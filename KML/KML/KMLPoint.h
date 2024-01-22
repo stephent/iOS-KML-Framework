@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import <CoreLocation/CoreLocation.h>
-#import "KMLAbstractGeometry.h"
+#import <KML/KMLAbstractGeometry.h>
 
 @class KMLCoordinate;
 

@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "KMLAbstractSubStyle.h"
+#import <KML/KMLAbstractSubStyle.h>
 
 /** Specifies how the description balloon for placemarks is drawn. 
  The &lt;bgColor&gt;, if specified, is used as the background color of the balloon. 

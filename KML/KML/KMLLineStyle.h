@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "KMLAbstractColorStyle.h"
+#import <KML/KMLAbstractColorStyle.h>
 
 /** Specifies the drawing style (color, color mode, and line width) for all line geometry. 
  Line geometry includes the outlines of outlined polygons and the extruded "tether" of Placemark icons (if extrusion is enabled). 

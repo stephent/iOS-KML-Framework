@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "KMLAbstractColorStyle.h"
+#import <KML/KMLAbstractColorStyle.h>
 
 @class KMLIcon;
 @class KMLVec2;

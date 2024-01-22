@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "KMLAbstractObject.h"
+#import <KML/KMLAbstractObject.h>
 
 /** Specifies the exact coordinates of the Model's origin in latitude, longitude, and altitude. 
  Latitude and longitude measurements are standard lat-lon projection with WGS84 datum. 

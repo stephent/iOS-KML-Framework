@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "KMLAbstractFeature.h"
+#import <KML/KMLAbstractFeature.h>
 
 /** This is an abstract element and cannot be used directly in a KML file. 
  A Container element holds one or more Features and allows the creation of nested hierarchies. 

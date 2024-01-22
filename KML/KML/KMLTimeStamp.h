@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "KMLAbstractTimePrimitive.h"
+#import <KML/KMLAbstractTimePrimitive.h>
 
 /** Represents a single moment in time. 
  This is a simple element and contains no children. 

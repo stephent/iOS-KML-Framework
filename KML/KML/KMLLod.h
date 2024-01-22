@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "KMLAbstractObject.h"
+#import <KML/KMLAbstractObject.h>
 
 /** Lod is an abbreviation for Level of Detail. 
  &lt;Lod&gt; describes the size of the projected region on the screen that is required in order for the region to be considered "active." 

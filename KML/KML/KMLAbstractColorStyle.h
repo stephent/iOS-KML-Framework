@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "KMLAbstractSubStyle.h"
+#import <KML/KMLAbstractSubStyle.h>
 
 /** This is an abstract element and cannot be used directly in a KML file. 
  It provides elements for specifying the color and color mode of extended style types. 

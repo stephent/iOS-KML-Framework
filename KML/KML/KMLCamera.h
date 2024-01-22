@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "KMLAbstractView.h"
+#import <KML/KMLAbstractView.h>
 
 /** Defines the virtual camera that views the scene. 
  This element defines the position of the camera relative to the Earth's surface as well as the viewing direction of the camera. The camera position is defined by &lt;longitude&gt;, &lt;latitude&gt;, &lt;altitude&gt;, and either &lt;altitudeMode&gt; or &lt;gx:altitudeMode&gt;. 

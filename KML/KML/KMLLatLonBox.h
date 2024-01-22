@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "KMLAbstractObject.h"
+#import <KML/KMLAbstractObject.h>
 
 /** Specifies where the top, bottom, right, and left sides of a bounding box for the ground overlay are aligned. 
  

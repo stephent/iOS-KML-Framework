@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "KMLAbstractObject.h"
+#import <KML/KMLAbstractObject.h>
 
 /** Contains a mapping from a &lt;sourceHref&gt; to a &lt;targetHref&gt;. 
  

@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "KMLAbstractColorStyle.h"
+#import <KML/KMLAbstractColorStyle.h>
 
 /** Specifies how the &lt;name&gt; of a Feature is drawn in the 3D viewer. 
  A custom color, color mode, and scale for the label (name) can be specified. 

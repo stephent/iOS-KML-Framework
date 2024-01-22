@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "KMLElement.h"
+#import <KML/KMLElement.h>
 
 /** *Deprecated in KML 2.2; Use KMLExtendedData instead.* 
  

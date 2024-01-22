@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "KMLAbstractView.h"
+#import <KML/KMLAbstractView.h>
 
 /** Defines a virtual camera that is associated with any element derived from Feature. 
  The LookAt element positions the "camera" in relation to the object that is being viewed. 

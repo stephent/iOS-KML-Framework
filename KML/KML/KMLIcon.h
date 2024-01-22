@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "KMLAbstractObject.h"
+#import <KML/KMLAbstractObject.h>
 
 /** Defines an image associated with an Icon style or overlay.
  The required &lt;href&gt; child element defines the location of the image to be used as the overlay or as the icon for the placemark. 

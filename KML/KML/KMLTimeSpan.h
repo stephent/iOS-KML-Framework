@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "KMLAbstractTimePrimitive.h"
+#import <KML/KMLAbstractTimePrimitive.h>
 
 /** Represents an extent in time bounded by begin and end dateTimes.
  If &lt;begin&gt; or &lt;end&gt; is missing, then that end of the period is unbounded (see Example below).
